@@ -12,10 +12,28 @@ body {
 
 /*Navigation Bar styling*/
 .navBar {
+    display: flex;
     font-family: "Molle", cursive;
+    align-items: center;
+    border-bottom: rgba(99, 99, 99, 0.2) solid 0.1vh;
+}
+#logo {
+    height: 15vh;
+    width: auto;
+    filter: drop-shadow(1px 1px #636363);
 }
 .navBarLinks {
     color: #A16D8F;
+    font-size: 4vh;
+    padding: 5vh 5vh;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #636363;
+}
+.navBarLinks:hover {
+    color: #cc97b8;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgba(204, 151, 184, 0.5);
 }
 
 /*About Me section styling*/
