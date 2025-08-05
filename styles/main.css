@@ -1,40 +1,65 @@
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
+/*Layout*/
 body {
     background-color: #D4BECE;
-    font-family: Tahoma, Verdana, sans-serif
+    font-family: "Mitr", sans-serif;
+    display: flex;
+    flex: 20%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px 0 50px;
+    font-weight: 300;
 }
 
-h1 {
-    color: #A16D8F;
-    font-family: "Brush Script MT", "Lucida Handwriting", Helvetica, cursive;
-}
-
-h2 {
-    color: #A16D8F;
-    font-family: "Brush Script MT", "Lucida Handwriting", Helvetica, cursive;
-}
-
-h3 {
-    color: #636363;
-}
-
-p {
-    color: #636363;
-}
-
+/*Navigation Bar styling*/
 .navBar {
-    font-family: "Brush Script MT", "Lucida Handwriting", Helvetica, cursive;
+    font-family: "Molle", cursive;
 }
-
 .navBarLinks {
     color: #A16D8F;
 }
 
-.navBarLinks:hover {
+/*About Me section styling*/
+#aboutMe {
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    align-content: center;
+}
+#aboutText {
+    padding: 0 50px 0 50px;
+}
+#profilePic {
+    height: 70vh;
+    width: auto;
+    border-radius: 50%;
+}
+#myName {
+    font-size: 5vw;
+    text-align: center;
+    color: #A16D8F;
+    font-family: "Molle", cursive;
+    text-shadow: 1px 1px 1px #636363;
+    margin: 0;
+    font-weight: lighter;
+}
+#jobTitle {
+    font-size: 2.5vw;
+    color: #636363;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+}
+.aboutParagraph {
+    color: #636363;
+    font-size: 1.25vw;
+}
 
+
+/*Font styling & color*/
+h2 {
+    color: #A16D8F;
+    font-size: 3.5vw;
+    font-family: "Molle", cursive;
+    text-shadow: 1px 1px 1px #636363;
+    text-align: center;
 }
