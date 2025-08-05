@@ -41,10 +41,8 @@ body {
     display: flex;
     flex-direction: row;
     flex: 50%;
-    padding-top: 2vh;
-}
-#aboutDescription {
-    padding: 0 60px 0 60px;
+    padding: 2vh 3vw;
+    gap: 2vw;
 }
 #profilePic {
     height: 70vh;
