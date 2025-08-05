@@ -41,15 +41,16 @@ body {
     display: flex;
     flex-direction: row;
     flex: 50%;
-    align-content: center;
+    padding-top: 2vh;
 }
-#aboutText {
-    padding: 0 50px 0 50px;
+#aboutDescription {
+    padding: 0 60px 0 60px;
 }
 #profilePic {
     height: 70vh;
     width: auto;
     border-radius: 50%;
+    align-self: center;
 }
 #myName {
     font-size: 5vw;
@@ -57,15 +58,15 @@ body {
     color: #A16D8F;
     font-family: "Molle", cursive;
     text-shadow: 1px 1px 1px #636363;
-    margin: 0;
     font-weight: lighter;
+    margin: 0;
 }
 #jobTitle {
     font-size: 2.5vw;
     color: #636363;
     text-align: center;
-    margin: 0;
     font-weight: 300;
+    margin: -2vh 0;
 }
 .aboutParagraph {
     color: #636363;
