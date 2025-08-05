@@ -5,40 +5,44 @@
     <meta name="description" content="My personal portfolio using HTML, CSS, and JavaScript">
     <meta name="author" content="Jaira Caylao">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/main.css" rel="stylesheet">
     <title>JaiCay Personal Portfolio</title>
+    <!--Import fonts & style-->
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--Navigation Bar-->
     <header>
         <nav class="navBar">
-            <a href="#aboutMe" class="navBarLinks">About Me</a>
+            <a href="#aboutMe" class="navBarLinks">About</a>
             <a href="#projects" class="navBarLinks">Projects</a>
-            <a href="#contactMe" class="navBarLinks">Contact Me</a>
+            <a href="#contactMe" class="navBarLinks">Contact</a>
         </nav>
     </header>
 
-    <div class="flex-container">
-        <!--About Me-->
-        <section id="aboutMe">
-            <h1>Jaira Caylao</h1>
-            <h3>UX UI Designer + Front End Developer</h3>
-            <p>I am a recent graduate from University of California San Diego, with a major in Cognitive Science focusing on Design & Interaction and a minor in Computer Science.</p>
-            <p>I have hands-on experience leading and collaborating with teams, bringing strong problem-solving and organizational skills into my design process.
+    <!--About Me-->
+    <div id="aboutMe">
+        <img id="profilePic" src="images/profile-pic.png" alt="Profile Picture">
+        <section id="aboutText">
+            <h1 id="myName">Jaira Caylao</h1>
+            <h3 id="jobTitle">UX UI Designer + Front End Developer</h3>
+            <p class="aboutParagraph">I am a recent graduate from University of California San Diego, with a major in Cognitive Science focusing on Design & Interaction and a minor in Computer Science.</p>
+            <p class="aboutParagraph">I have hands-on experience leading and collaborating with teams, bringing strong problem-solving and organizational skills into my design process.
                 With a foundation in coding and experience in tools like Figma, I follow a user-centered design process to ensure I create thoughtful and effective solutions with the user in mind.
                 This design process includes: conducting user research, wireframing, prototyping, and usability testing.
                 I'm passionate about designing user-friendly digital experiences, to make them easy to use and navigate in order to meet real user needs.
             </p>
-            <p>During my free time, I like to crochet while binge-watching my current favorite shows, playing video games, and spending time with friends & family.</p>
+            <p class="aboutParagraph">During my free time, I like to crochet while binge-watching my current favorite shows, playing video games, and spending time with friends & family.</p>
         </section>
-        <!--Projects-->
-        <section id="projects">
-            <h2>Projects</h2>
-        </section>
-        <!--Contact Me-->
-        <section id="contactMe">
-            <h2>Contact Me</h2>
-        </section>
+    </div>
+    <!--Projects-->
+    <div id="projects">
+        <h2>Projects</h2>
+    </div>
+    <!--Contact Me-->
+    <div id="contactMe">
+        <h2>Contact Me</h2>
     </div>
 </body>
 </html>
