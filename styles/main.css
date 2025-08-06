@@ -76,11 +76,21 @@ body {
 #projects {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 #projectCards {
-    display: grid;
-    grid-auto-rows: minmax(0, 1fr);
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 55vh;
+}
+.projectPhotos {
+    background-color: #B994AD;
+    border-radius: 15%;
 }
 
 /*Font styling & color*/
