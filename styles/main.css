@@ -85,7 +85,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 55vh;
+    width: 24vw;
 }
 .projectPhotoContainer {
     display: flex;
