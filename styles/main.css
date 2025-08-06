@@ -8,6 +8,7 @@ body {
     justify-content: center;
     padding: 0 50px 0 50px;
     font-weight: 300;
+    color: #636363
 }
 
 /*Navigation Bar styling*/
@@ -71,6 +72,16 @@ body {
     font-size: 1.25vw;
 }
 
+/*Projects section*/
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+#projectCards {
+    display: grid;
+    grid-auto-rows: minmax(0, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 
 /*Font styling & color*/
 h2 {

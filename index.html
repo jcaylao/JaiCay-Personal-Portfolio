@@ -15,7 +15,7 @@
     <!--Navigation Bar-->
     <header>
         <nav class="navBar">
-            <img class="logo" src="images/jc-logo.png" alt="logo">
+            <img id="logo" src="images/jc-logo.png" alt="logo">
             <a href="#aboutMe" class="navBarLinks">About</a>
             <a href="#projects" class="navBarLinks">Projects</a>
             <a href="#contactMe" class="navBarLinks">Contact</a>
@@ -23,9 +23,9 @@
     </header>
 
     <!--About Me-->
-    <div id="aboutMe">
+    <section id="aboutMe">
         <img id="profilePic" src="images/profile-pic.png" alt="Profile Picture">
-        <section id="aboutText">
+        <section id="aboutDescription">
             <h1 id="myName">Jaira Caylao</h1>
             <h3 id="jobTitle">UX UI Designer + Front End Developer</h3>
             <p class="aboutParagraph">I am a recent graduate from University of California San Diego, with a major in Cognitive Science focusing on Design & Interaction and a minor in Computer Science.</p>
@@ -36,14 +36,40 @@
             </p>
             <p class="aboutParagraph">During my free time, I like to crochet while binge-watching my current favorite shows, playing video games, and spending time with friends & family.</p>
         </section>
-    </div>
+    </section>
     <!--Projects-->
-    <div id="projects">
+    <section id="projects">
         <h2>Projects</h2>
-    </div>
+        <div id="projectCards">
+            <div class="card" id="groceryAppCard">
+                <img class="projectPhotos" src="images/grocery-app.png" alt="Project Photos">
+                <h4>Grocery & Cooking App</h4>
+                <p>A grocery and cooking app that allows users to easily find new recipes and keep track of their groceries.
+                    One feature is recipe tinder, in which users are given a recipe and they can choose to like or dislike a recipe.
+                    Another feature is a receipt scanner that allows users to scan their receipts and upload it to their virtual pantry.
+                </p>
+            </div>
+            <div class="card" id="inventoryAppCard">
+                <img class="projectPhotos" src="images/grocery-app.png" alt="Project Photos">
+                <h4>Grocery & Cooking App</h4>
+                <p>A grocery and cooking app that allows users to easily find new recipes and keep track of their groceries.
+                    One feature is recipe tinder, in which users are given a recipe and they can choose to like or dislike a recipe.
+                    Another feature is a receipt scanner that allows users to scan their receipts and upload it to their virtual pantry.
+                </p>
+            </div>
+            <div class="card" id="apiManagerCard">
+                <img class="projectPhotos" src="images/grocery-app.png" alt="Project Photos">
+                <h4>Grocery & Cooking App</h4>
+                <p>A grocery and cooking app that allows users to easily find new recipes and keep track of their groceries.
+                    One feature is recipe tinder, in which users are given a recipe and they can choose to like or dislike a recipe.
+                    Another feature is a receipt scanner that allows users to scan their receipts and upload it to their virtual pantry.
+                </p>
+            </div>
+        </div>
+    </section>
     <!--Contact Me-->
-    <div id="contactMe">
+    <section id="contactMe">
         <h2>Contact Me</h2>
-    </div>
+    </section>
 </body>
 </html>
