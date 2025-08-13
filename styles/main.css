@@ -6,8 +6,9 @@ body {
     flex: 20%;
     flex-direction: column;
     justify-content: center;
-    margin: 0 8vw;
+    margin: 0 6.5em;
     font-weight: 300;
+    font-size: 100%;
     color: #636363;
 }
 
@@ -16,17 +17,17 @@ body {
     display: flex;
     font-family: "Molle", cursive;
     align-items: center;
-    border-bottom: rgba(99, 99, 99, 0.2) solid 0.1vh;
+    border-bottom: rgba(99, 99, 99, 0.2) solid 0.1em;
 }
 #logo {
-    height: 15vh;
+    height: 5em;
     width: auto;
     filter: drop-shadow(1px 1px #636363);
 }
 .navBarLinks {
     color: #A16D8F;
-    font-size: 4vh;
-    padding: 5vh 5vh;
+    font-size: 1.5em;
+    padding: 1em 1em;
     text-decoration: none;
     text-shadow: 0 1px 1px #636363;
 }
@@ -42,7 +43,7 @@ body {
     display: flex;
     flex-direction: row;
     flex: 50%;
-    gap: 2vw;
+    gap: 2em;
 }
 #profilePic {
     height: 70vh;
@@ -51,7 +52,7 @@ body {
     align-self: center;
 }
 #myName {
-    font-size: 5vw;
+    font-size: 4em;
     text-align: center;
     color: #A16D8F;
     font-family: "Molle", cursive;
@@ -60,7 +61,7 @@ body {
     margin: 0;
 }
 #jobTitle {
-    font-size: 2.5vw;
+    font-size: 2em;
     color: #636363;
     text-align: center;
     font-weight: 300;
@@ -68,7 +69,7 @@ body {
 }
 .aboutParagraph {
     color: #636363;
-    font-size: 1.25vw;
+    font-size: 1em;
 }
 
 /*Projects section*/
@@ -81,31 +82,34 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0.5em;
 }
 .card {
     display: flex;
     flex-direction: column;
-    width: 24vw;
+    width: 20em;
 }
 .projectPhotoContainer {
     display: flex;
+    height: 19em;
     background-color: #B994AD;
     border-radius: 15%;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
     filter: drop-shadow(0 2px 3px #474747);
 }
 h4 {
-    font-size: 2vw;
+    font-size: 1.5em;
 }
 .projectInfo {
-    margin: -5vh 0 0 0;
+    margin: -2em 0 0 0;
 }
 
 /*Font styling & color*/
 h2 {
     color: #A16D8F;
-    font-size: 3.5vw;
+    font-size: 2.75em;
     font-family: "Molle", cursive;
     text-shadow: 1px 1px 1px #636363;
     text-align: center;
