@@ -129,8 +129,43 @@ h4 {
     margin: 5em 4em;
     gap: 5em;
 }
+
+/*Contact Form style*/
 #contactForm {
     width: 100em;
     background-color: #B994AD;
     border-radius: 15%;
+}
+form {
+    display: flex;
+    margin: 3em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+label {
+    display: block;
+}
+input, textarea {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #636363;
+    padding: 0.5em;
+    background-color: #D4BECE;
+    font-family: "Mitr", sans-serif;
+}
+
+textarea{
+    resize: none;
+    height: 15em;
+}
+
+#formSubmit {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #636363;
+    padding: 0.5em;
+    background-color: #333333;
+    color: white;
 }
