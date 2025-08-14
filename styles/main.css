@@ -105,8 +105,14 @@ h2 {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    filter: drop-shadow(0 2px 3px #474747);
+    border: 5px dotted #a1618d;
 }
+.projectPhotoContainer:hover {
+    background-color: #88617b;
+    filter: drop-shadow(0 2px 3px #474747);
+    border: 5px dotted #aeaeae;
+}
+
 h4 {
     font-size: 1.5em;
 }
