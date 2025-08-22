@@ -1,4 +1,4 @@
-/*Layout*/
+/*Layout for default laptop*/
 body {
     background-color: #D4BECE;
     font-family: "Mitr", sans-serif;
@@ -10,6 +10,15 @@ body {
     font-weight: 300;
     font-size: 100%;
     color: #636363;
+}
+/*Layout for desktop or wide screens */
+@media screen and (min-width: 800px) {
+    body {
+        margin: 1em 15em 2em 15em;
+    }
+    #contactColumns {
+        max-width: 80%;
+    }
 }
 
 /*Section Headings*/
@@ -53,9 +62,10 @@ h2 {
     flex-direction: row;
     flex: 50%;
     gap: 2em;
+    margin-top: 2em;
 }
 #profilePic {
-    height: 70vh;
+    height: 35em;
     width: auto;
     border-radius: 50%;
     align-self: center;
@@ -121,6 +131,12 @@ h4 {
 }
 
 /*Contact Me section styling*/
+#contactMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #contactColumns {
     display: flex;
     flex-direction: row;
